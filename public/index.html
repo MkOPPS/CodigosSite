@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Códigos!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Adicionar Novo Código</h2>
+        <input type="text" id="name" placeholder="Nome do código">
+        <textarea id="newCode" placeholder="Código aqui..."></textarea><br>
+        <button onclick="addCode()">Adicionar Código</button>
+    </div>
+
+    <div class="search-container">
+        <h2>Buscar Código</h2>
+        <input type="text" id="searchQuery" placeholder="Buscar código...">
+        <button onclick="searchCode()">Buscar</button>
+    </div>
+
+    <div class="results-container">
+        <h2>Resultados</h2>
+        <ul id="codeList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

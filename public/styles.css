@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(66, 66, 66);
+    font: normal 19px Arial;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 33, 33);
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+textarea, input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.results-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results-container li {
+    background-color: black;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+}
